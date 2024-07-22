@@ -1,0 +1,75 @@
+/* VARIABLES */
+
+:root{
+    --black: #000000;
+    --dark: #212529;
+    --gray: #707070;
+    --light: #F8F9FA;
+    --white: #FFFFFF;
+    --success: #28A745;
+}
+
+/* GENERAL */
+
+*{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+hr{
+    margin-top: 4%;
+}
+
+/* NAVBAR */
+
+nav{
+    background-color: var(--success);
+}
+
+/* SECTION CUPONES */
+
+h5.card-title{
+    color: var(--dark);
+    font-weight: 300;
+}
+
+p.card-subtitle, p.card-text{
+    color: var(--gray);
+}
+
+p.card-text.oferta{
+    color: var(--success);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+p.fa-map-marker-alt{
+    font-size: 12px;
+    color: var(--gray);
+}
+
+/* SECTION SUSCRIPCIONES */
+
+#suscripcion{
+    background-color: var(--success);
+}
+
+#suscripcion h4{
+    color: var(--white);
+}
+
+form.container{
+    max-width: 400px;
+}
+
+/* FOOTER */
+
+footer p{
+    color: var(--gray);
+}
+
+/* MEDIA QUERIES */
+
+@media screen {
+    
+}
